@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+    body {
+        font-family: "Inter", sans-serif;
+        /* font-optical-sizing: auto; */
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .rect {
+        border-radius: 20px;
+        transition: all ease-in .2s;
+    }
+
+    .rect:hover {
+        transform: scale(1.1);
+    }
+
+    .list {
+        list-style-type: none;
+    }
+
+    button {
+        margin: 20px 30px;
+        background-color: rgb(0, 115, 255);
+    }
+</style>
+
+<body>
+    <div class="blurring">
+        <div class="ssheader c-hero flex align-center justify-between">
+            <img src="images/MERIISE FOUNDATION logo 2.0.png" alt="" class="h-[12vh]">
+            <h2 class="h-txt p-4">
+                <p class="font-bold m-2 text-xl"> MALNAD ENCLAVE FOR RESEARCH, INNOVATION, INCUBATION, STARTUPS AND
+                    ENTREPRENEURSHIP</p>
+                <p class="text-center">Malnad College of Engineering , Hassan</p>
+
+            </h2>
+            <img src="images/malnad_college_of_engineering_logo (1).jpg" alt="" class="h-28 m-2">
+
+        </div>
+
+
+    </div>
+    <!-- <nav class="sticky top-0 lg:flex lg:items-center lg:justify-center w-[100vw]">
+        <div class="flex items-center justify-between">
+          <a href="index.html"><img src="./images/meriise-favicon.png" alt="" class="h-32"></a> -->
+
+    <!-- <div>
+                <ion-icon name="menu" onclick="clickFunction(this)"
+                    class="text-4xl text-blue-400 block lg:hidden"></ion-icon>
+            </div>
+
+        </div> -->
+
+    <!-- <ion-icon name="menu" id="menu" onclick="clickFunction(this)"
+    class="text-4xl block lg:hidden h-24"></ion-icon> -->
+
+    <!-- 
+        <div class="hidden lg:block m-4" id="elements">
+            <ul class="text-black bg-white px-4 py-2 lg:flex lg:justify-center lg:items-center w-48 md:w-42 lg:w-full float-right md:float-right h-screen md:h-screen lg:h-auto z-50"
+                id="list">
+                <li class="mx-4"><a href="index.html">Home</a></li>
+                <li class="a1 mx-4"><a href="aboutmeriise.html">About Us</a></li>
+            <li class="a1 mx-2"><a href="faculty.html">Faculty</a></li> -->
+    <!-- <li class="a1 mx-2"><a href="team.html">Team ME-RIISE</a></li> -->
+    <!-- <li class="mx-2"><a href="iic.html">MoE</a></li> -->
+    <!-- <li class="mx-2"><a href="nain.html">NAIN</a></li> -->
+    <!-- <li class="mx-2"><a href="uba.html">UBA</a></li> -->
+    <!-- <li class="mx-2"><a href="infrastructure.html">Infrastructure</a></li> -->
+    <!-- <li class="mx-4"><a href="startups.html">Wings of ME-RIISE</a></li>
+                <li class="mx-4"><a href="https://meriise-events.vercel.app/">Events</a></li>
+                <li class="mx-4"><a href="https://www.mcehassan.ac.in/">MCE</a></li> -->
+
+    <!-- <li class="mx-2"><a href="ourAchivements.html">Achievements</a></li> -->
+
+
+    <!-- <div class="flex ml-2">
+                    <li class="relative" onclick="toggleFunction2(event)" id="click">
+                        <a href="#" class="hover:text-blue-600">Documents</a>
+                        <ion-icon name="caret-down-outline" class="px-1" id="icons2"></ion-icon>
+
+                    </li>
+                    <li class="absolute p-2 rounded-sm mt-8 hidden rounded-xl text-md w-[130px] bg-black text-white"
+                        id="box2" onclick="dropdown()">
+                        <div><a href="Nisp.html">MCE NISP Policy</a></div>
+                        <div><a href="collab.html">Collaboration</a></div>
+                        <div><a href="documents.html">Documents</a></div>
+
+                    </li>
+                </div> -->
+    <!-- <li class="mx-2"><a href="collab.html">Collaborations</a></li>
+                <li class="mx-2"><a href="Nisp.html">MCE NISP Policy</a></li> -->
+
+
+    <!-- <div class="flex ml-2">
+                    <li class="relative" onclick="toggleFunction(event)" id="click">
+                        <a href="#" class="hover:text-blue-600">Pragyatha</a>
+                        <ion-icon name="caret-down-outline" class="px-1" id="icons"></ion-icon>
+
+                    </li>
+                    <li class="absolute p-2 rounded-sm mt-8 hidden rounded-xl text-md w-[130px] bg-white text-blue-600"
+                        id="box" onclick="dropdown()">
+                        <div><a href="http://meriise.org/pragyatha24.html">Pragyatha 24</a></div>
+                        <div><a href="pragyatha23.html">Pragyatha 23</a></div>
+                        <div><a href="pragyatha22.html">Pragyatha 22</a></div>
+                        <div><a href="Pragyatha.html">Pragyatha 21</a></div>
+                        <div><a href="prag.html">Pragyatha 19</a></div>
+
+
+                    </li>
+                </div>
+
+
+
+
+            </ul>
+        </div>
+    </nav> -->
+
+    <div class="flex justify-center list gap-10">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Wings</li>
+        <li>Pragyatha</li>
+        <li>Documents</li>
+    </div>
+
+    <div class="logos flex h-24 gap-10 m-6 justify-between">
+        <div>
+            <p class="text-3xl">ME-RIISE Foundation</p>
+
+        </div>
+        <div class="flex justify-between gap-10">
+            <img src="images/AICTE.png" alt="">
+            <img src="images/IIC-logo-removebg-preview.png" alt="">
+            <img src="images/images (11).png" alt="">
+            <img src="images/UBA.png" alt="">
+        </div>
+
+        <!-- <img src="images/AICTE.png" alt=""> -->
+    </div>
+
+    <div class="h-[200vh] bg-white">
+        <div class="grid grid-cols-3 text-center gap-4">
+            <div class="bg-pink-400 py-32">01</div>
+            <div class="bg-pink-400 py-32">02</div>
+            <div class="bg-pink-400 py-32">03</div>
+
+        </div>
+        <div class="m-8">
+            <p class="text-8xl text-blue-600">Pragyatha <span class="font-bold">2024</span></p>
+            <p class="m-2 text-lg text-grey-400">Pragyatha is a state level ENTREPRENEURSHIP event
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur perferendis vitae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla deleniti ut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla deleniti ut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla deleniti ut.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nulla deleniti ut.
+            </p>
+        </div>
+
+        <div class="bg-blue-500 h-[70vh]">
+            <div class="grid grid-cols-3 text-center gap-10 pt-20 events m-4">
+                <div class="bg-pink-400 h-[50vh] rect">
+                    <!-- <img src="images/AICTE.png" alt=""> -->
+                    <div class="text-lg github">Github Workshop</div>
+                </div>
+                <div class="bg-pink-400 h-[50vh] rect">
+                    <div><button class="bg-white">Know more</button></div>
+                </div>
+                <div class="bg-pink-400 h-[50vh] rect">03</div>
+
+            </div>
+        </div>
+
+        <!-- <div class="h-2 bg-blue-500 m-4"></div> -->
+
+        <div class="grid grid-cols-2">
+            <div class="m-10 my-64">
+                <p class="text-8xl text-blue-600">Pragyatha <span class="font-bold">2024</span></p>
+
+                <p class="text-2xl my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                    omnis
+                    voluptatum repudiandae.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa voluptates ad laborum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit officiis harum?
+                    <br>
+                    <button class="text-center bg-blue-500 p-4 my-6 rounded-xl text-white">Know more</button>
+
+                </p>
+
+            </div>
+            <div class="m-10 rounded-xl">
+                <div class="h-[70vh] bg-pink-400 rounded-3xl"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="h-2 bg-blue-500 rounded-sm m-4"></div> -->
+    <div class="h-[100vh]">
+        <div class="grid grid-cols-2">
+            <div class="boxes p-4">
+                <div class="h-[20vh] bg-pink-400 m-8 rounded-lg">01</div>
+                <div class="h-[20vh] bg-pink-400 m-8 rounded-lg">02</div>
+                <div class="h-[20vh] bg-pink-400 m-8 rounded-lg">02</div>
+                <div class="h-[20vh] bg-pink-400 m-8 rounded-lg">02</div>
+                <div class="h-[20vh] bg-pink-400 m-8 rounded-lg">02</div>
+
+            </div>
+            <div class="m-10 my-[40%]">
+                <p class="text-8xl text-blue-600">Pragyatha <span class="font-bold">2024</span></p>
+
+                <p class="text-2xl my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur id
+                    voluptatem!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde quidem nostrum distinctio.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ex distinctio ipsam!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ex distinctio ipsam!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi ex distinctio ipsam!
+                    <br>
+                    <button class="text-center bg-blue-500 p-4 my-6 rounded-xl text-white">Know more</button>
+                </p>
+            </div>
+
+
+        </div>
+        <div class="h-[90vh] bg-black">
+            <div class="grid grid-cols-2">
+                <div class="text-white my-10 m-10">
+                    <p class="text-white text-[140px]">
+                        Our <span class="text-blue-600">Goals</span>
+                    </p>
+                    <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nemo quam minus.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, culpa ex? Illo odio tempor
+                        e possimus dolorum, eos impedit culpa necessitatibus! Similique.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur assumenda quis velit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse neque tempore!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse consequuntur quo assumenda.
+                    </p>
+                </div>
+                <div class="bg-black p-10">
+                    <div class="bg-white rounded-3xl h-[80vh]"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-[90vh] bg-white"></div>
+    </div>
+
+
+</body>
+
+</html>
